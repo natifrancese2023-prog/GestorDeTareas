@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Gestor de tareas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<h1>📋 Gestor de Tareas</h1>
+
+<div class="zona-agregar">
+    <input type="date" id="fechaTarea">
+    <input type="text" id="tarea" placeholder="Escribe una tarea...">
+    <input type="button" id="btnAgregar" value="Agregar">
+</div>
+<br>
+<label >   Filtrar por fecha </label>
+<input type="date" id="filtroFecha">
+<button id="btnFiltrar">Filtrar</button>
+<button id="btnLimpiar">Limpiar filtro</button>
+<p id="contador"></p>
+
+<ul>
+</ul>
+
+</div>
+
+<script src="gestor.js"></script>
+
+</body>
+</html>
